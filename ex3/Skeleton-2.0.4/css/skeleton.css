@@ -391,7 +391,64 @@ hr {
   display: table;
   clear: both; }
 
+/* my css
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* The navigation bar */
+body{
+  background-image: url("../images/arcana_back.afbdba18.png");
+  background-color: #000000;
+  height: 100%;
+}
+.mainnav{
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: auto;
+
+}
+
+.mainnav ul{
+  list-style: none;
+  width: 60%;
+  margin: auto;
+}
+.mainnav li{
+  display: block;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 2%;
+}
+.mainnav a{
+  text-decoration: none;
+  color: white;
+  padding: 25%;
+  transition: transform .2s;
+}
+.mainnav a:active{
+  color: orange;
+}
+.mainnav a:hover{
+  transform: scale(1.2);
+}
+
+/* Links inside the navbar /
+.mainnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}*/
+
+
+main{
+  margin-top: 15%;
+}
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
